@@ -1,0 +1,104 @@
+.color {
+    color:hsl(234, 12%, 34%);
+    
+    color:hsl(0, 0%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color:hsl(229, 6%, 66%);
+}
+
+/* Header Section */
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+header h1:nth-of-type(1) {
+  color:hsl(234, 12%, 34%);
+  font-weight: 200;
+}
+
+header h1:nth-of-type(2) {
+  color:hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
+}
+
+header p {
+  width: 35%;
+  margin: 0 auto;
+  line-height: 2;
+  color:hsl(229, 6%, 66%);
+}
+
+/* Cards Section  */
+
+.cards {
+  position: relative;
+  width: 100%;
+}
+
+.cards h2 {
+  color:hsl(234, 12%, 34%);
+  
+}
+
+.cards p {
+  color:hsl(229, 6%, 66%);
+  margin: 1rem 0 2rem 0;
+}
+
+
+.cards img {
+  float: right;
+}
+
+.Team {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  border: 2px solid hsl(0, 78%, 62%);
+}
+
+.Supervisor {
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, 75%);
+  border: 2px solid hsl(180, 62%, 55%);
+}
+
+.Karma {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  border: 2px solid hsl(34, 97%, 64%);
+}
+
+.Calculator {
+  top: 50%;
+  left: 78%;
+  transform: translate(-50%, 75%);
+  border: 2px solid hsl(212, 86%, 64%);
+}
+
+.card {
+    padding: 2rem;
+    background: #fff;
+    width: 26%;
+    border-radius: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 0;
+    position: absolute;
+    box-shadow: 0px 13px 20px 0px rgb(235, 234, 234);
+  }
